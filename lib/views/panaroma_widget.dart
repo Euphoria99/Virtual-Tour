@@ -15,7 +15,7 @@ class PanoramaWidget extends StatelessWidget {
       appBar: AppBar(),
       body: Center(
           child: Panorama(
-              animSpeed: 1.0,
+              animSpeed: 5.0,
               sensorControl: SensorControl.Orientation,
               child: Image.file(myFile),
               hotspots: [
